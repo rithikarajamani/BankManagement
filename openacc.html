@@ -1,0 +1,177 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>THE CODE REVIEW</title>
+</head>
+<body >
+<form action="openacc.php" method ="post" enctype="multipart/form-data">
+     <div>
+        IMAGE:
+        <input type="file"   name="image" placeholder="" required ><br/>
+    </div>
+<input type="submit" name="upload" value="Upload Image">
+
+</form>
+
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>THE CODE REVIEW</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">  
+            <script src="https://use.fontawesome.com/f59bcd8580.js"></script>
+             
+            <style>
+             body {
+          background-image: url("ezgif-sixteen_nine_265.webp");
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+        
+        label {
+                display: inline-block;
+                width: 100px;
+                text-align:center;
+              }
+        .p1{
+          color:black;
+        }
+        .h1{
+          color: green;
+        }
+            </style>
+    
+</head>
+
+<body >
+    <img align="left" src="allkvb.jpg" style="width:200px">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+
+    <div class="container">  
+        <div class="row m-5 no-gutters">  
+        <div class="col-md-12 bg-white p-5">   
+        <div class="form-style" >  
+   
+
+<form action="openacc.php" method ="post" enctype="multipart/form-data">
+
+    <center><h3 class="h1">WELCOME TO KVB BANK!</h3></center><br>
+        <h4 class="p1">Please Enter Your Opening Account Details:</h4><br>
+
+        <div class="mb-3 mt-3">    
+            <label for="id"><b>ID :</b></label>
+          <input type="text" placeholder="" name="id1" size="50" required></div><br>
+    <div class="mb-3 mt-3">    
+        <label for="id"><b>Name :</b></label>
+      <input type="text" placeholder="Please enter your name" name="name" size="50" required></div><br>
+
+    <!-- <div class="mb-3 mt-3">
+        <label for="id"><b>Image :</b></label>
+        <input type="file"   name="image" placeholder="" required ><br><br>
+        <label for="id"><b>Upload :</b></label>
+        <input type="submit" name="upload" value="Upload Image">
+    </div><br> -->
+     
+    <div class="mb-3 mt-3">    
+        <label for="id"><b>Email :</b></label>
+      <input type="text" placeholder="Please enter your email"     name="email" required></div><br>
+
+      <div class="mb-3 mt-3">    
+        <label for="id"><b>Password :</b></label>
+      <input type="password" placeholder="Please enter your password" name="password"  required></div><br>
+
+    <div class="mb-3 mt-3">    
+    <label for="id"><b>DOB :</b></label>
+    <input type="date" name="dob"  required></div><br>
+    
+    <div class="mb-3 mt-3">    
+      <label for="id"><b>Gender :</b></label><br>
+            <input type="radio" id="1" name="radio" value="male"  required>
+      <label for="html">Male</label><br>
+            <input type="radio" id="2" name="radio" value="female"  required>
+      <label for="html">Female</label><br>
+    </div><br>
+     
+    <div class="mb-3 mt-3">    
+        <label for="id"><b>Mobile No :</b></label>
+        <input type="text" placeholder="Please enter your valid mobile no" name="mobile"  required>
+    </div><br>
+    <div class="mb-3 mt-3">    
+        <label for="id"><b>Opening Date :</b></label>
+        <input type="date" placeholder="" name="date"  required>
+    </div><br>
+
+    <div class="mb-3 mt-3">
+    <label for="id"><b>Address :</b></label>
+    <textarea rows="4" cols="50" name="address">
+   </textarea></div><br>
+
+    <div class="mb-3 mt-3">    
+        <label for="id"><b>Occupation :</b></label>
+        <input type="text" placeholder="Please enter your occupation" name="occupation" required>
+    </div><br>
+
+    <div class="mb-3 mt-3">    
+        <label for="id"><b>Income :</b></label>
+        <input type="text" placeholder="Please enter your income" name="income" required>
+    </div><br>
+
+    <div class="mb-3 mt-3">    
+        <label for="id"><b>Aadhar No :</b></label>
+        <input type="text" placeholder="Please enter your aadhar no" name="aadhar"  required>
+    </div><br>
+
+
+   <div class="mb-3 mt-3">    
+        <label for="id"><b>Branch :</b></label>
+        <input type="text" placeholder="Please enter your branch" name="branch"  required>
+    </div><br>
+
+    <div class="mb-3 mt-3">    
+        <label for="id" ><b>Account Type :</b></label>
+        <select name="account">
+            <option value=""></option>
+            <option value="savings">Savings</option>
+            <option value="Current">Current</option>
+        </select>
+    </div><br>
+
+    <div class="mb-3 mt-3">    
+        <label for="id"><b>Pan Card :</b></label>
+        <input type="text" name="pan" placeholder="Enter your pan no"  required>
+    </div><br>
+
+    <div class="mb-3 mt-3">    
+        <label for="id"><b>Opening amount:</b></label>
+        <input type="text" name="amount" placeholder="₹1000"  required>
+        <!-- <select >
+            <option value=""></option>
+            <option value="1000">1000</option>
+            <option value="2000">5000</option>
+        </select> -->
+    </div><br>
+    <div class="mb-3 mt-3">
+        <label for="id"><b>Image :</b></label>
+        <input type="file"   name="image" placeholder="" required ><br><br>
+        
+       <center> <input class="btn btn-success" type="submit" name="upload" value="Upload Image"></center>
+    </div><br>
+    <!-- <button type="submit" class="btn btn-info">Submit</button> -->
+   
+
+</form>
+
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

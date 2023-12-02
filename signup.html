@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <meta charset="UTF-8">
+    
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="/js/validation.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <style>
+         body {
+          background-image: url("ezgif-sixteen_nine_265.webp");
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+          div {
+            background-color: white;
+            width: 500px;
+            border: 10px solid green;
+            padding: 50px;
+            margin: 20px;
+          }
+        </style>
+</head>
+<body>
+  <img align="left" src="allkvb.jpg" style="width:200px">
+  <br>
+  <br>
+  <br>
+  <br>
+    
+     
+    
+    <form action="process-signup.php" method="post" id="signup" novalidate>
+        <center><div>
+          <h1>Signup</h1> 
+          <br>
+          <br>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name"><br>
+        
+        
+        
+            <label for="email">email</label><br>
+            <input type="email" id="email" name="email"><br>
+        
+        
+        
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password"><br>
+        
+        
+        
+            <label for="password_confirmation">Repeat password</label><br>
+            <input type="password" id="password_confirmation" name="password_confirmation"><br><br>
+        
+        
+        <button class="btn btn-success">Sign up</button><br>
+    </div></center>
+    </form>
+    
+</body>
+</html>
+
+
+
+
+
